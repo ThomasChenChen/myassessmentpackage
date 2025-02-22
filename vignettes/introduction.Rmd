@@ -1,0 +1,20 @@
+---
+title: "Introduction to myassessmentpackage"
+author: "Thomas"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Introduction}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+## Overview
+
+This package, `myassessmentpackage`, provides functions from Week 2's assessment, including `calculate_mean()` and `calculate_median()`.
+
+## Installation
+
+Install via GitHub:
+```r
+devtools::install_github("your-username/myassessmentpackage")

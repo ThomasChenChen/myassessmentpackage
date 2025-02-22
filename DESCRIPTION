@@ -1,0 +1,16 @@
+Package: myassessmentpackage
+Version: 0.1.0
+Title: Assessment Package for Week 2 Functions
+Description: This package contains functions from Week 2's assessment, including tools to calculate the mean and median of numeric vectors, complete with documentation and examples.
+author: "Thomas"
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Depends:
+    R (>= 3.5.0)
+Imports:
+    testthat,
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+Config/testthat/edition: 3
